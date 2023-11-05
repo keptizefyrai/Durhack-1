@@ -28,7 +28,7 @@ function App() {
 
       <div>
         {recipes.map((recipe, index) => (
-          <div key={index}>
+          <div key={index} className="recipe">
             <h2>{recipe.recipe_name}</h2>
             <p>Possible allergens: {recipe.allergens}</p>
             <p>Percentage in recipes: {recipe.percentage.toFixed(2)}%</p>
