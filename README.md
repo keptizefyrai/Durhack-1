@@ -26,7 +26,16 @@ Make sure you have the following installed before you proceed:
    cd your-repository-name
    ```
 
-2. **Set up the Backend**
+2. **Set up the Frontend**
+
+   Navigate back to the root directory and install the necessary npm packages:
+
+   ```sh
+   cd recipe-search-app  # Adjust this path to where your frontend code is located
+   npm install
+   ```
+
+3. **Set up the Backend**
 
    Navigate to the backend directory where `server.py` is located and create a virtual environment (optional but recommended):
 
@@ -39,15 +48,6 @@ Make sure you have the following installed before you proceed:
 
    ```sh
    pip install -r requirements.txt
-   ```
-
-3. **Set up the Frontend**
-
-   Navigate back to the root directory and install the necessary npm packages:
-
-   ```sh
-   cd path/to/frontend  # Adjust this path to where your frontend code is located
-   npm install
    ```
 
 4. **Start the Application**
@@ -64,22 +64,8 @@ Make sure you have the following installed before you proceed:
 
 Simply enter a keyword into the search bar and press the 'Search' button to find recipes. The app will display a list of recipes along with the potential allergens and the percentage of recipes containing those allergens.
 
-## Contributing
-
-Contributions to the Recipe Search App are welcome! Please feel free to submit pull requests or create issues for bugs and feature requests.
-
-## License
-
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
-
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc.
-
-## Contact
-
-For any further questions, please contact us at [your-email@example.com](mailto:your-email@example.com).
-
-Enjoy your cooking adventure with the Recipe Search App!
