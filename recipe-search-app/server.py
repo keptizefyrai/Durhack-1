@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # This will enable CORS for all routes
 
 # Load your CSV data into a DataFrame
-df = pd.read_csv('food_ingredients_and_allergens.csv')
+df = pd.read_csv('./data/food_ingredients_and_allergens.csv')
 
 @app.route('/search_recipes', methods=['GET'])
 def search_recipes():
